@@ -6,12 +6,12 @@ Este trabajo consiste en un script en Bash que permite gestionar archivos median
 
 ## Funcionalidades
 
-* Crear el entorno de trabajo
-* Procesar archivos en segundo plano (background)
-* Listar alumnos ordenados por número de padrón
-* Mostrar las 10 notas más altas
-* Buscar un alumno por padrón
-* Visualizar el archivo log
+1. Crear el entorno de trabajo
+2. Procesar archivos en segundo plano (background)
+3. Listar alumnos ordenados por número de padrón
+4. Mostrar las 10 notas más altas
+5. Buscar un alumno por padrón
+6. Visualizar el archivo log
 
 ## Estructura de carpetas
 
@@ -21,10 +21,13 @@ EPNro1/
  ├── salida/
  └── procesado/
 ```
+entrada/: acá se colocan los archivos .txt a procesar.
+procesado/: destino de los archivos ya procesados.
+salida/: resultados generados por el script (listados, búsquedas, etc.).
 
 ## Requisitos y ejecucion
 
-Antes de ejecutar el script, se debe definir la variable de entorno:
+Definir la variable de entorno FILENAME, que indica el nombre base del archivo a usar:
 
 ```
 export FILENAME=alumnos
