@@ -11,6 +11,7 @@ Este trabajo consiste en un script en Bash que permite gestionar archivos median
 * Listar alumnos ordenados por número de padrón
 * Mostrar las 10 notas más altas
 * Buscar un alumno por padrón
+* Visualizar el archivo log
 
 ## Estructura de carpetas
 
