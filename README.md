@@ -4,6 +4,9 @@
 
 Este trabajo consiste en un script en Bash que permite gestionar archivos mediante un menú interactivo. Incluye además un proceso en segundo plano (consolidar.sh) que monitorea la llegada de nuevos archivos y los procesa automáticamente.
 
+- consolidar.sh  
+Es el script que corre en segundo plano monitoreando la carpeta entrada/. Cada vez que detecta un archivo .txt nuevo, lo procesa, lo mueve a procesado/ y registra la operación con fecha y hora en el archivo log. Se dispara desde la opción 2 del menú.
+
 ## Funcionalidades
 
 1. Crear el entorno de trabajo
@@ -21,9 +24,9 @@ EPNro1/
  ├── salida/
  └── procesado/
 ```
-entrada/: acá se colocan los archivos .txt a procesar.
-procesado/: destino de los archivos ya procesados.
-salida/: resultados generados por el script (listados, búsquedas, etc.).
+- entrada/: acá se colocan los archivos .txt a procesar.  
+- procesado/: destino de los archivos ya procesados.  
+- salida/: resultados generados por el script (listados, búsquedas, etc.).  
 
 ## Requisitos y ejecucion
 
