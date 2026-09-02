@@ -41,14 +41,14 @@ export FILENAME=alumnos
 Dar permisos de ejecución:
 
 ```
-chmod +x menu.sh
+chmod +x script.sh
 chmod +x consolidar.sh
 ```
 
 Ejecutar el programa:
 
 ```
-./menu.sh
+./script.sh
 ```
 
 ## Uso
