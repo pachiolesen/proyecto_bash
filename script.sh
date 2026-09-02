@@ -27,7 +27,6 @@ while [ "$numero_menu" != "7" ]; do
     5)Ingresar nro. de padron y ver datos del alumno correspondiente
     6)Ver log
     7)Salir
-    -d)Borrar directorio EPNro1, su contenido y los procesos en background"
     read -p "Ingrese el numero del menu que desea ejecutar: " numero_menu
     case "$numero_menu" in
         1)
@@ -109,9 +108,8 @@ while [ "$numero_menu" != "7" ]; do
                 echo "Debes entrar a la opcion 1 del menu para asi se crea el entorno antes de querer entrar a la opcion 6"
             fi
             ;;
-        7);;
-        -d)
-            echo "Si quiere borrar el directorio EPNro1, su contenido y los procesos en background. Salga del script ingresando '7' y luego en la terminal ponga como primer parametro del bash '-d'"
+        7)
+            echo "Adios"
             ;;
     esac
 done
