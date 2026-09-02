@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este trabajo consiste en un script en Bash que permite gestionar archivos mediante un menú interactivo.
+Este trabajo consiste en un script en Bash que permite gestionar archivos mediante un menú interactivo. Incluye además un proceso en segundo plano (consolidar.sh) que monitorea la llegada de nuevos archivos y los procesa automáticamente.
 
 ## Funcionalidades
 
@@ -22,29 +22,19 @@ EPNro1/
  └── procesado/
 ```
 
-## Requisitos
+## Requisitos y ejecucion
 
 Antes de ejecutar el script, se debe definir la variable de entorno:
 
 ```
 export FILENAME=alumnos
 ```
-
-## Ejecución
-
-Definir la variable de entorno:
-
-```
-export FILENAME=alumnos
-```
-
 Dar permisos de ejecución:
 
 ```
 chmod +x script.sh
 chmod +x consolidar.sh
 ```
-
 Ejecutar el programa:
 
 ```
@@ -54,9 +44,9 @@ Ejecutar el programa:
 ## Uso
 
 1. Ejecutar el script y seleccionar la opción 1 para crear el entorno
-2. Agregar archivos .txt en la carpeta "entrada"
-3. Seleccionar la opción 2 para procesar los archivos
-4. Utilizar las demás opciones del menú según lo que se necesite
+2. Agregar archivos .txt en la carpeta entrada/.
+3. Seleccionar la opción 2 para procesar los archivos (esto inicia consolidar.sh en segundo plano).
+4. Utilizar las demás opciones del menú según lo que se necesite.
 
 ## Formato de los archivos
 
