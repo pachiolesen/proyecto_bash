@@ -26,7 +26,7 @@ while [ "$numero_menu" != "7" ]; do
     4)Ver las 10 notas mas altas del listado
     5)Ingresar nro. de padron y ver datos del alumno correspondiente
     6)Ver log
-    7)Salir
+    7)Salir"
     read -p "Ingrese el numero del menu que desea ejecutar: " numero_menu
     case "$numero_menu" in
         1)
